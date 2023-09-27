@@ -4,6 +4,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.2.0](https://github.com/terraform-google-modules/terraform-google-bigquery/compare/v6.1.1...v6.2.0) (2023-09-27)
+
+
+### Features
+
+* data_warehouse add labels to objects ([#253](https://github.com/terraform-google-modules/terraform-google-bigquery/issues/253)) ([70962af](https://github.com/terraform-google-modules/terraform-google-bigquery/commit/70962afc68366e8ef1214b9ad747d3d15fa7f313))
+
+
+### Bug Fixes
+
+* data_warehouse add bigquery data policy api ([#254](https://github.com/terraform-google-modules/terraform-google-bigquery/issues/254)) ([f2aa4f3](https://github.com/terraform-google-modules/terraform-google-bigquery/commit/f2aa4f392e94603ca831c40c6c08dc3fbdae8af4))
+* data_warehouse api identity dependency for p/s ([#252](https://github.com/terraform-google-modules/terraform-google-bigquery/issues/252)) ([d2c1256](https://github.com/terraform-google-modules/terraform-google-bigquery/commit/d2c125676f176c8fa33eb9dad12b7ed992dee6ac))
+* **deps:** update terraform terraform-google-modules/project-factory/google to 14.3 ([#245](https://github.com/terraform-google-modules/terraform-google-bigquery/issues/245)) ([cf6869c](https://github.com/terraform-google-modules/terraform-google-bigquery/commit/cf6869c8f37999f4b765b7b9ac501c73a5ca3e36))
+* update architecture diagrams, fix integration test ([#241](https://github.com/terraform-google-modules/terraform-google-bigquery/issues/241)) ([bc5abf8](https://github.com/terraform-google-modules/terraform-google-bigquery/commit/bc5abf8cb55bfc2c9939a1be6d6adfa7212e3a17))
+* update workflow.tftpl bc subworkflow creates bq not biglake tables ([#246](https://github.com/terraform-google-modules/terraform-google-bigquery/issues/246)) ([fc7d4ae](https://github.com/terraform-google-modules/terraform-google-bigquery/commit/fc7d4ae15376a22a5f37c140fc4b1c1c4ad3aa52))
+
 ## [6.1.1](https://github.com/terraform-google-modules/terraform-google-bigquery/compare/v6.1.0...v6.1.1) (2023-07-20)
 
 
